@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1170px;
+    padding: 0 90px;
+    margin: 0;
+}
+.half-width{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    background: linear-gradient(#FB9149,#FD5131);
+    width: 100px;
+    height: 34px;
+    padding: 6px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 400;
+}
+/*..........
+....header....*/
+.header-area{
+    background: #ddd;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+	width: 39%;
+}
+.menu ul li{
+    
+  display: inline-block;
+  margin: 0 15px;
+}
+.menu ul li a{
+    
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #222;
+  
+}
+/*..........
+....banner...*/
+.colorful{
+    color: #FB934A;
+}
+.banner-body{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.banner-img img {
+	width: 100%;
+}
+.banner-text{
+    margin-left: 50px;
+    align-items: center;
+    margin-top: 15%;
+}
+.banner-text h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.banner-text p {
+	color: #828282;
+	line-height: 160%;
+	margin-bottom: 20px;
+}
+/*about*/
+.about-img img {
+	width: 50%;
+}
+.about-area{
+    background: url(./img/about-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+.about-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-text h2 {
+	font-size: 50px;
+	margin-bottom: 3%;
+}
+.about-text p {
+	color: #828282;
+	line-height: 160%;
+	margin-bottom: 20px;
+}
+/* recipe */
+.recipe-area {
+	margin-bottom: 80px;
+}
+.recipe-body{
+    display: flex;
+    justify-content: space-between;
+}
+.single-recipe img {
+	width: 100%;
+	border-radius: 12px;
+}
+.section-title {
+	text-align: center;
+	margin-bottom: 5%;
+}
+.section-title h1 {
+	font-size: 50px;
+	margin-bottom: 15px;
+}
+.section-title p {
+    color: #828282;
+	line-height: 160%;
+}
+.single-recipe {
+	padding: 43px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+border-radius: 30px;
+	margin: 0 60px;
+}
+.recipe-text {
+	margin-top: 20px;
+}
+.recipe-text h2 {
+	margin-bottom: 15px;
+}
+.recipe-text p {
+	color: #828282;
+	line-height: 160%;
+}
+/* counter */
+.counter-body{
+    display: flex;
+    justify-content: space-evenly;
+}
+.counter-area {
+	margin-bottom: 60px;
+}
+.single-counter h1 {
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+.single-counter span {
+    color: #828282;
+}
+/* footer */
+.footer-area {
+	background: #0B0D17;
+	text-align: center;
+	color: #fff;
+}
+.footer-area {
+	background: #0B0D17;
+	text-align: center;
+	color: #fff;
+	padding: 44px 0;
+}
+.footer-area h2{
+    color: #585858;
+    margin-bottom: 25px;
+}
+.footer-area span{
+    color: #FF9C4E;
+}
+.footer-area p {
+	font-size: 12px;
+    color: #585858;
+}
+
+
+/* ...................RESPONSIVE............... */
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .container {
+        padding: 0 10px;
+    }
+    .menu {
+        display: none;
+    }
+    .banner-body {
+        display: block;
+    }
+    .banner-text h1 {
+        font-size: 17px;
+    }
+
+}
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+ 
+}
